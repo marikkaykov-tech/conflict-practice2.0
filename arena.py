@@ -6,6 +6,8 @@ ROSTER = [
     {"name": "Cyborg Bob", "hp": 110, "attack": (5, 10), "phrase": "Beep boop!"},
     {"name": "Deadline Student", "hp": 80, "attack": (10, 40), "phrase": "It works on my machine!"},
     {"name": "Pythagoras", "hp": 120, "attack": (15, 30), "phrase": "a^2 + b^2 = c^2"},
+    {"name": "F*** Fighter", "hp": 120, "attack": (10, 40), "phrase": "If you have to shoot.. SHOOT!"},
+    
     # --- ADD HERE ---
 ]
 
@@ -71,3 +73,5 @@ def run_tournament(fighters):
 if __name__ == "__main__":
     # Start the tournament when this file is run directly
     run_tournament(ROSTER)
+
+print("adar")
